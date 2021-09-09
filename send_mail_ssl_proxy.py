@@ -20,7 +20,7 @@ Es necesario instalar el Módulo "PySocks" para importar el modulo "socks":
 python3 -m pip install pysocks
 
 Si se esta detrás de un proxy:
-python3 -m pip install --proxy=http://10.40.56.3:8080 pysocks
+python3 -m pip install --proxy=http://10.20.30.40:8080 pysocks
 
 Package       Version
 ------------- -------
