@@ -15,8 +15,8 @@ a inactiva para poder aceptar trabajos nuevamente. Es necesario instalar el mód
 python cups_resumePrinterFromPause.py
 
 Si lo quisieramos usar como una tarea programada debemos comprobar que la secuencia de fin de linea del script
-se LF y no CRLF si esta creado en un sistema Windows. Posteriormente dar permisos de ejecución y agregar la 
-tarea a "crontab". Para ejecutar cada 3 minutos:
+sea LF y no CRLF si esta creado en un sistema Windows. Posteriormente dar permisos de ejecución y agregar la 
+tarea a "crontab". Por ejemplo, para ejecutar cada 3 minutos el script:
 
 crontab -e
 */3 * * * *     /home/usuario/cups_resumePrinterFromPause.py
